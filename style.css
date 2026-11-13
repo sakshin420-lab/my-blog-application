@@ -1,0 +1,221 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #172554;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Website Title */
+header h1 {
+    font-size: 28px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #facc15;
+}
+
+/* Main Section */
+main {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Welcome Section */
+.welcome {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.welcome h2 {
+    color: #172554;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Button */
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #172554;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 8px;
+    }
+
+    .welcome {
+        padding: 30px 20px;
+    }
+
+    .welcome h2 {
+        font-size: 25px;
+    }
+}
+
+
+/* Login Page */
+
+.login-box {
+    background: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #172554;
+    margin-bottom: 25px;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.login-box button {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-box a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+
+/* Dashboard */
+
+.dashboard {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.dashboard h2 {
+    color: #172554;
+    margin-bottom: 15px;
+}
+
+.dashboard-card {
+    background: #eff6ff;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+}
+
+.dashboard-card h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.dashboard button {
+    margin: 20px 0;
+}
+
+
+/* Create Blog Page */
+
+.login-box select,
+.login-box textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.login-box textarea {
+    resize: vertical;
+}
+
+.login-box input:focus,
+.login-box select:focus,
+.login-box textarea:focus {
+    outline: 2px solid #2563eb;
+}
